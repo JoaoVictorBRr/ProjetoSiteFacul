@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=DynaPuff:wght@500&family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lexend&family=Ubuntu:ital@1&display=swap');
+.lupa{
+    width: 40px;
+    transition: 0.2s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.lupa:hover{
+    transform: scale(1.2);
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    background-color: #ececec;
+}
+.pesquisar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+#search{
+    border: solid transparent 0px;
+    border-bottom: solid 2px black;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #ececec;
+}#search:focus{
+    border: solid transparent 0px;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border-bottom: solid 2px black;
+}
+
+.container{
+    height: 700px;
+}
+
+.img-fotos-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+.title-types{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    color: #f53bc6;
+    margin: 20px;
+}
+.btn-ancor{
+    text-decoration: none;
+}
+.types{
+    font-family: 'Alkatra', cursive;
+    color: #f53bc6;
+}
+.img-foto-mainContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 3px #f53bc6;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.img-foto-mainContent:hover{
+    transform: scale(1.1);
+}
+.img-fotos{
+    border-top: solid 3px #f53bc6;
+    width: 300px;
+    height: 400px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 474px){
+    .pesquisar{
+       width: 100px;
+    }
+
+   }

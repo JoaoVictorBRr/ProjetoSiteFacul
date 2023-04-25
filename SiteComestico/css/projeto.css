@@ -1,0 +1,70 @@
+body{
+     background-image: url(https://media.istockphoto.com/id/1274888387/pt/vetorial/perfume-bottles-seamless-pattern-with-line-icons-vector-background-illustration-included.jpg?s=1024x1024&w=is&k=20&c=J43B8JCSYmva9IIArpxwULgb4bBjVbGHkg02kgv8j9k=);
+     background-repeat: repeat;
+     background-size: 200px ;
+}
+
+.img-anuncio{
+    width: 300px;
+    position: fixed;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 180px;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.border{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+.img-parceiro{
+    width: 150px;
+    border-radius: 100px;
+    padding: 20px;
+    display: flex;
+}
+
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffc9f1;
+    padding: 20px;
+    color: #ce49a1;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.td{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: #ce49a1;
+    background-color: white;
+}
+.button-comprar{
+    border-radius: 2px;
+    text-decoration: none;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+@media (max-width: 887px){
+        .button-comprar{  
+            margin-left: 60%;
+        }
+}
+@media (max-width: 621px){
+    .button-comprar{  
+        margin-left: 30%;
+    }
+}

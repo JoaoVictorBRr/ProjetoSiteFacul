@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charme Cosméticos - Home</title>
+    <!-- Icone aba -->
+    <link rel="shortcut icon" href="../img/logo.avif" type="image/x-icon">
+    <!-- Css goblal -->
+    <link rel="stylesheet" href="../css/global/Header_E_Footer.css">
+    <!-- Css Index -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Carrosel css -->
+    <link rel="stylesheet" href="../css/carrosel.css">
+    <!-- Biblioteca de animação -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <div class="header-home">
+            <div><a href="#"><img class="img imglogo" src="../img/logo.avif" alt="imgLogo"></a></div>
+           <a href="./projeto.html"><button class="btn">Projetos</button></a> 
+            <div class="buttons-header">
+                <a href="./sobre.html"><button class="btn">Sobre</button></a>
+                <a href="./contato.html"><button class="btn">Contato</button></a>  
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-header">
+        <div class="pesquisar">
+            <label for="search"><img class="img lupa" src="../img/lupa.png" alt="lupa"></label>
+            <input type="text" id="search" name="search" placeholder="O que você procura ?">
+            </div>
+    </nav>
+    <section class="img-container-promo"  data-aos="fade-right" data-aos-duration="1000">
+        <div class="carousel">
+            <div data-js="carousel__item" class="carousel__item carousel__item--visible">
+                <img src="../img/promo/b0970ecf-9cea-485e-a8fd-beb133a0bcde___9ff09d581ed229b9fb25f2438c88009f.webp" />
+            </div>
+            <div data-js="carousel__item" class="carousel__item">
+                <img src="../img/promo/e70834f2-41ae-4ff4-a8fa-23a03f9e6253___d48990eb278dbce9b88c4aa0841fd1e9.webp" />
+            </div>
+             <div data-js="carousel__item" class="carousel__item">
+              <img src="../img/promo/cupom_desconto.png" />
+            </div>
+            <div class="carousel__actions">
+              <button data-js="carousel__button--prev" aria-label="Slide anterior"> <
+              </button>
+        
+              <button data-js="carousel__button--next" aria-label="Próximo slide">
+                >
+              </button>
+            </div>
+          </div>
+    </section>
+    <section class="container">
+        <h1 class="title-types" data-aos="zoom-in" data-aos-duration="1000">Qual é o seu estilo de Cabelo ?</h1>
+        <div class="img-fotos-container">
+        <a href="./projeto.html#liso" class="btn-ancor" data-aos="zoom-in" data-aos-duration="1000">
+            <button class="img-foto-mainContent">
+                <h1 class="types">Liso</h1>
+                <img class="img-fotos" src="https://static1.fiquediva.com.br/articles/8/19/75/8/@/153825-confira-fotos-cuidados-e-como-virar-mor-article_gallery_portrait-4.jpg" alt="CabeloLiso">
+            </button>
+        </a>  
+        <a href="./projeto.html#Cacheado" class="btn-ancor" data-aos="zoom-in" data-aos-duration="1000">  
+            <button class="img-foto-mainContent">
+                <h1 class="types">Cacheado</h1>
+                <img class="img-fotos" src="https://todecacho.com.br/wp-content/uploads/2017/12/como-diminuir-o-frizz-do-cabelo-1.jpg" alt="CabeloCacheado">
+            </button>
+      
+        <a href="./projeto.html#Ondulado" class="btn-ancor" data-aos="zoom-in" data-aos-duration="1000">
+            <button class="img-foto-mainContent">
+                <h1 class="types">Ondulado</h1>
+                <img class="img-fotos" src="https://static1.fiquediva.com.br/articles/4/14/28/4/@/152121-para-ajudar-a-definir-as-ondas-voce-pod-article_gallery_portrait-1.jpg" alt="CabeloOndulado">
+            </button> 
+        </a>
+        <a href="./projeto.html#Crespo" class="btn-ancor" data-aos="zoom-in" data-aos-duration="1000">
+            <button class="img-foto-mainContent">
+                <h1 class="types">Crespo</h1>
+                <img class="img-fotos" src="https://s2.glbimg.com/GOiliWJs7FkdO7S4ChnnBRDJwnI=/e.glbimg.com/og/ed/f/original/2022/06/30/274709948_239474458392667_8521743940100722567_n.jpg" alt="CabeCrespo">
+            </button>
+         </a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-home">
+            <div><a href="#"><img class="img imglogo" src="../img/logo.avif" alt="imgLogo"></a></div>
+           <a class="ancora" href="">Voltar para o inicio</a>
+        </div>
+    </footer>
+    <script src="../js/index.js" defer></script>
+    <!-- Biblioteca de animação -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
